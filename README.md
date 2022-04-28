@@ -5,9 +5,9 @@ use biquad filter to enhance bass part of music
 bassBoost ref.wav output.wav
 
 # Design bass/treble/peak boost filter by Matlab
-% ------- example of bass boost filter design ------- 
-gain = 6;  % peak gain (dB)  -12~12   
-slope = 0.8;   
+% ------- example of bass boost filter design -------     
+gain = 6;  % peak gain (dB)  -12~12     
+slope = 0.8;    
 FcL = 800/(Fs/2);   
 % Design the filter coefficients using the specified parameters.   
 [B1,A1] = designShelvingEQ(gain,slope,FcL);   
