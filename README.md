@@ -1,10 +1,10 @@
-# bass_boost
-use biquad filter to enhance bass part of music
+# Bass Boost
+Use a biquad filter to enhance bass part of music.
 
 # Usage:  
-bassBoost ref.wav output.wav
+./bassBoost ref.wav output.wav in command line like Cygwin
 
-# Design bass/treble/peak boost filter by Matlab
+# Design bass boost filter (biquad filter) by Matlab
 % ------- example of bass boost filter design -------     
 gain = 6;  % peak gain (dB)  -12~12     
 slope = 0.8;    
